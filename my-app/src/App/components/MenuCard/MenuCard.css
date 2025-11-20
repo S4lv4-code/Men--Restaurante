@@ -1,0 +1,47 @@
+.menuCard {
+  width: 100%;
+  height: 320px; /* altura fija */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* distribuye imagen, título y precio */
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #8a5a3a; 
+  border-radius: 12px;
+  padding: 12px;
+  background: #f5e6d3;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.menuCard:hover {
+  transform: scale(1.04);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.25);
+}
+
+.menuCard-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #7b4b28;
+}
+
+.menuCard-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4a321c;
+  text-align: center;
+  margin: 5px 0;
+  flex-grow: 1; /* permite que títulos largos no deformen la tarjeta */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menuCard-price {
+  font-size: 0.9rem;
+  background-color: #6f3d13;
+  color: #fff2d9;
+  padding: 4px 8px;
+  border-radius: 6px;
+}

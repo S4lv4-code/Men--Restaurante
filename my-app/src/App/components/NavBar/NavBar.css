@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 1rem;
+  background-color: #f5e6d3; /* acorde con tu tema rústico */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.navlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4a321c;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.navlink:hover {
+  background-color: #8a5a3a;
+  color: #fff2d9;
+}
+
+.navlink.active {
+  background-color: #6f3d13;
+  color: #fff8e1;
+}
