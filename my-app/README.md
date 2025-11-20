@@ -131,3 +131,7 @@ npm start
 Abrir en el navegador:
 
 http://localhost:3000
+
+## Foto
+
+![alt text](image.png)
